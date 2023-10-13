@@ -1,22 +1,26 @@
 # Tana per un procione
 
-Dentro la cartella `linux` c'è l'ambiente di Zippo, all'esame si potranno eseguire gli script `.ps1` utilizzando [wsl](https://learn.microsoft.com/en-us/windows/wsl/about), su mac-os una soluzione per poter usare sia `gcc` che istruzioni a `32bit` è [docker](https://www.docker.com/).
-
 ## Per iniziare
 
 - installare docker https://docs.docker.com/desktop/install/mac-install/
+- lanciare `install.sh`
 
 ## Come eseguire 
 
-```
-./run.sh
+launch `wsl` from everywhere
+
+```shell
+# ricordati di avere il docker-engine attivo !!!
+wsl # yeah just like that
 ```
 
 questo script costruirà l'immagine partendo dal `./Dockerfile` e la runnerà facendo partire `powershell` (la shell preferita di zippolone)
 
 ## Oh no! Come faccio ad installare qualcosa sull'immagine
 
-Modifica il `./Dockerfile` scrive `RUN` e la cosa che scriveresti nella tua shell per installare le cose
+- Modifica il `./Dockerfile` 
+
+scrivere `RUN` e la cosa che scriveresti nella tua shell per installare le cose
 
 ## Per concludere
 
