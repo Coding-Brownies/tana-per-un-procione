@@ -15,4 +15,4 @@ RUN apt-get update && \
 
 # install basic need for asm
 RUN apt update && \  
-    apt install -y gcc make file gcc-multilib  
+    apt install -y gcc make file gcc-multilib gdb
