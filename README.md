@@ -3,6 +3,7 @@
 ## Per iniziare
 
 - installare docker https://docs.docker.com/desktop/install/mac-install/
+- fare `git clone` in una cartella (senza spostarla in futuro)
 - lanciare `install.sh`
 
 ## Come eseguire 
