@@ -1,4 +1,4 @@
-# Registri: locazioni di memoria interne a 32 bit
+:# Registri: locazioni di memoria interne a 32 bit
 ## registri generali: per le elaborazioni   
 ``` 
          31           16 15    8 7      0
